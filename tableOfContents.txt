@@ -1,0 +1,69 @@
+abstract
+introduction
+explain 
+    0. explain FSMD and ASMD diagram 
+    1. implementation (FSMD)
+    2. implementation (ASIP)
+    3. implementation (C code) 
+        include vivado ip block connections
+    4. implementation (custom IP block)
+        include vivado ip block connections
+
+compare all 4 codes from different views (choose which we should compare):
+    
+### 1. **Performance (Execution Time)**
+   - **Definition**: Measure how fast each implementation executes the InsertionSort algorithm.
+   - **Considerations**: Evaluate the clock cycles for FSMD, ASIP, and Custom IP designs and execution time for the C implementation.
+   - **Goal**: Determine the time efficiency of sorting the data, particularly for different input sizes.
+
+### 2. **Resource Utilization**
+   - **Definition**: Assess the hardware resources consumed, such as LUTs, flip-flops, DSPs, and memory usage.
+   - **Considerations**: FSMD and Custom IP implementations will use FPGA resources, whereas the C implementation runs on a general-purpose CPU, and the ASIP uses specialized processor resources.
+   - **Goal**: Identify which implementation is more resource-efficient or requires fewer resources on an FPGA or other hardware platforms.
+
+### 3. **Energy Consumption / Power Efficiency**
+   - **Definition**: Measure the energy consumed during the execution of the algorithm.
+   - **Considerations**: Hardware-based solutions (FSMD, Custom IP, ASIP) generally have different power profiles compared to software implementations in C. FPGA implementations (FSMD, Custom IP) can be lower power but may vary based on design choices.
+   - **Goal**: Understand the power efficiency of each implementation, especially in energy-constrained environments.
+
+### 4. **Design and Implementation Complexity**
+   - **Definition**: Evaluate how complex it is to design, develop, and verify each implementation.
+   - **Considerations**: C implementations are typically easier to develop, whereas FSMD and Custom IP require detailed hardware description and low-level control. ASIP falls in between, needing specialized compiler support and potentially custom instructions.
+   - **Goal**: Measure the effort required to build each implementation, from coding and synthesis (for hardware) to debugging and testing.
+
+### 5. **Flexibility and Reusability**
+   - **Definition**: Assess how flexible the implementation is and how easily it can be adapted or reused for other algorithms or tasks.
+   - **Considerations**: C implementations are highly flexible and portable, while FSMD and Custom IP implementations are more specialized. ASIPs can offer a balance with programmability and specialized instructions.
+   - **Goal**: Determine which approach is more versatile across different applications or datasets.
+
+### 6. **Scalability**
+   - **Definition**: Examine how well each implementation scales with increasing input sizes or varying hardware constraints.
+   - **Considerations**: C implementation might face performance issues with larger datasets, while hardware-based designs like FSMD and Custom IP can be optimized for specific data sizes but might need redesigning for larger inputs. ASIP’s performance can vary based on the instruction set and architecture.
+   - **Goal**: Understand how each implementation performs as the problem size grows or if more computational resources are available.
+
+### 7. **Latency vs. Throughput**
+   - **Definition**: Measure the trade-off between latency (time taken to sort a single input) and throughput (rate of sorting multiple inputs).
+   - **Considerations**: FSMD and Custom IP designs may have low latency, but throughput may vary based on the design. The C implementation may have higher latency due to software overhead, but can execute continuously. ASIP designs typically optimize for higher throughput by using specialized instructions.
+   - **Goal**: Determine which implementation is better for real-time systems (low latency) vs. batch processing (high throughput).
+
+### 8. **Hardware/Software Co-design Opportunities**
+   - **Definition**: Explore how each approach integrates hardware and software, if applicable.
+   - **Considerations**: C implementation is purely software-based, while FSMD and Custom IP are hardware-focused. ASIP provides a mix of both worlds, allowing hardware acceleration of specific instructions while remaining programmable.
+   - **Goal**: Identify which implementation allows for optimal hardware/software partitioning and exploitation of hardware acceleration for specific functions.
+
+### 9. **Cost (Development and Production)**
+   - **Definition**: Evaluate the cost in terms of time, tools, and hardware.
+   - **Considerations**: Developing an FSMD or Custom IP solution typically requires more design effort, specialized hardware description language (HDL) knowledge, and synthesis tools (Vivado, Quartus, etc.). ASIP design requires a specialized processor and potentially toolchain development. C implementation is cheaper to develop but might be slower in performance.
+   - **Goal**: Understand which design is more cost-effective, particularly in terms of development time and resources, and production scalability (especially for Custom IP).
+
+### 10. **Debugging and Verification Complexity**
+   - **Definition**: Assess how difficult it is to debug and verify the correctness of each implementation.
+   - **Considerations**: Debugging in C is generally easier with available tools like gdb or IDE debuggers. Hardware implementations (FSMD, Custom IP) require simulation (e.g., in ModelSim or Vivado Simulator) and in-system verification, which can be time-consuming. ASIP debugging may involve both hardware and software aspects.
+   - **Goal**: Identify which implementation is easier to debug and verify, particularly in terms of simulation and in-system testing.
+
+### Conclusion
+    - which solution would be suitable for different applications (student implementaiton, big company which focusses on one specific soultion, product that aims at to solve different porblems dynamically)
+
+Annex - use of GPTs:
+    - used GPT for debugging
+    - used GPT for writing the report (table of contents, tbc)   
