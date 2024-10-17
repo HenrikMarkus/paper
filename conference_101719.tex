@@ -5,48 +5,68 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
-\usepackage{textcomp}
+\usepackage{textcomp} 
+\usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{references.bib}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Assignment Group 6\\}
-
-\author{\IEEEauthorblockN{1\textsuperscript{st} Henrik Markus Guhl}
-\IEEEauthorblockA{\textit{University of South-Eastern Norway} \\}
-\and
-\IEEEauthorblockN{2\textsuperscript{nd} Adrian Chan Ruud}
-\IEEEauthorblockA{\textit{University of South-Eastern Norway} \\}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Alexandra Göppert}
-\IEEEauthorblockA{\textit{University of South-Eastern Norway} \\}
-}
+\title{implem \\}
 
 \maketitle
 
 \begin{abstract}
-This paper will dive in four different implementation of the insertion sort algorithm. They four implementations are FSMD (Finite State Machine with Data path), ASIP (Application-Specific Instruction-set Processor), C (software-based implementation) and Custom IP (hardware-based implementation). They will be explained and afterwards compared under the following aspects: 
+This paper will dive in four different implementation of the insertion sort algorithm. They four implementations are FSMD (Finite State Machine with Data path), ASIP (Application-Specific Instruction-set Processor), C (software-based implementation) and Custom IP (hardware-based implementation). They will be explained and afterwards compared under the following aspects:
 % // TODO: add the aspects
 \end{abstract}
 
 \section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
 
 \section{InsertionSort}
+We decided to implement the InsertionSort Algorithm for the project asignment, because it is a well-known, not too complex sorting algorithm. The idea of InsertionSort is similar to "sorting playing cards in your hands. You split the cards into two groups: the sorted cards and the unsorted cards. Then, you pick a card from the unsorted group and put it in the right place in the sorted group." \cite{g4g}\\
+It is maily used for small or nearly sorted lists because the time complexity of insertionsort is a $O(n)$ in the best-case (= numbers already sorted algotithm) but $O(n^2)$ for the average and worst case. \\
+InsertionSort is a in-place sorting algotithm which means that its space complexity is at $O(1)$. 
+
 
 \section{Implemtations}
+In this next session we will start introducing our four different implementations. We started the project by firstly get clarity of the logical design and describe it in a finite state machine with data path (FSMD) diagramm as well as an algorithm state machine with datapath (ASMD) diagramm. Then we started our implementations.
 \subsection{FSMD}
+First part to implement was the finite state machine with data path. We used the napoleon cypher FSMD as a base project and adapted the fsm and the top file by implementing the behaviour that was described in the previously defined FSMD diagram \autoref{fig:fsmd}. We tested our functionality by using the waveform configuration and added the uart receiving and transmitting file so we could use our serial connection to putty.exe as in- and output. 
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Images/FSMDInsertionSort.png}
+    \caption{FSMD diagram for the insertion sort}
+    \label{fig:fsmd}
+\end{figure}
+
 \subsection{ASIP}
+Second implementation was the application-specific instruction set processor, which we implemented using the states described in the ASMD chart. This allowed us to stay consistent with our design choices as well as keep a structred overview of the ASIP implementation. We used the one-cycle cpu design as a template for the ASIP design and modified it by changing some core features.\\
+Since the design of the ASIP was built upon the logic of the ASMD we needed to modify the opcodes to include the instructions we required for our implementation. The required opcode instructions were more than originally designed, and therefore the instruction address register had to have its size increased.\\
+    
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Images/ASMDInsertionSort.png}
+    \caption{ASMD diagram for the insertion sort}
+    \label{fig:asmd}
+\end{figure}
 \subsection{C coding in Vitis}
+Next up, we definied the C program. In order to do so we used the FIR filter project as baseline for Vitis and Vivado and for the code we used a template from the internet \cite{g4g}. We then adapted the template so that we could use the putty.exe as input and output of our unsorted and sorted array. This would then result in the same behaviour like the FSMD and ASIP.\\
+In the end we ran our solution on the Zybo Z7 board and could observe the expected behaviour.
+
 \subsection{Create custom IP block}
+Lastly, we implemented the IP block. We expected this to be very similar to the C porgram. This was true for the actual InsertionSort functionality. Here, we only did minor adaptions.\\ 
+But we encountered other problems: The behaviour for memory allocation and sharing between the host and the FPGA was not how we expected it to be. Additionally, the testbench simulation was not provide the same results as the real tests. Some of our implementations worked within the testbench but not with the real implementation. Lastly, debugging of the file was very difficult. Vitis didn't provide a good debugger. The waveform file was difficult to interpret and print statements could not allways be displayed on the terminal. \\
+Due to these findings we had to try a lot of different approaches. We tried to use CharGPT and other large language models. The solution they proposed did not work. In the end we managed to come up with a design on our own that worked just how we expected.
 
 \section{Comparison}
-\subsection{aspect 1}
-\subsection{aspect 2}
-\subsection{aspect 3}
-\subsection{aspect 4}
+\subsection{Design and Implementation Complexity}
+\subsection{Scalability, Flexibility and Reusability}
+\subsection{Cost (Development and Production)}
+\subsection{Debugging and Verification Complexity}
 
 \section*{Acknowledgment}
 
@@ -56,37 +76,8 @@ G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor
 acknowledgments in the unnumbered footnote on the first page.
 
 \section*{References}
+% #TODO why are there two REFERENCES section titles in out pdf?
 
-Please number citations consecutively within brackets \cite{b1}. The 
-sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
-number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
-the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
-
-Number footnotes separately in superscripts. Place the actual footnote at 
-the bottom of the column in which it was cited. Do not put footnotes in the 
-abstract or reference list. Use letters for table footnotes.
-
-Unless there are six authors or more give all authors' names; do not use 
-``et al.''. Papers that have not been published, even if they have been 
-submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
-that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
-Capitalize only the first word in a paper title, except for proper nouns and 
-element symbols.
-
-For papers published in translation journals, please give the English 
-citation first, followed by the original foreign-language citation \cite{b6}.
-
-\begin{thebibliography}{00}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
-\end{thebibliography}
-\vspace{12pt}
-\color{red}
-IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+\printbibliography
 
 \end{document}
