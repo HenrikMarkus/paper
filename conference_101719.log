@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  17 OCT 2024 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  18 OCT 2024 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -676,45 +676,49 @@ LaTeX Warning: No \author given.
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 (C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `fig:fsmd' on page 1 undefined on input line 37.
-
 <Images/FSMDInsertionSort.png, id=4, 1832.8475pt x 1072.005pt>
 File: Images/FSMDInsertionSort.png Graphic file (type png)
 <use Images/FSMDInsertionSort.png>
-Package pdftex.def Info: Images/FSMDInsertionSort.png  used on input line 40.
+Package pdftex.def Info: Images/FSMDInsertionSort.png  used on input line 45.
 (pdftex.def)             Requested size: 252.0pt x 147.38069pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-[]\OT1/ptm/m/n/10 Second im-ple-men-ta-tion was the application-specific
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-
-
-<Images/ASMDInsertionSort.png, id=6, 2277.50874pt x 881.2925pt>
-File: Images/ASMDInsertionSort.png Graphic file (type png)
-<use Images/ASMDInsertionSort.png>
-Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 52.
-(pdftex.def)             Requested size: 252.0pt x 97.50726pt.
-
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 53.
+(C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 
 [1{C:/Users/Alexa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./Images/FSMDInsertionSort.png> <./Images/ASMDInsertionSort.png>]
+]
+<Images/ASMDInsertionSort.png, id=24, 2277.50874pt x 881.2925pt>
+File: Images/ASMDInsertionSort.png Graphic file (type png)
+<use Images/ASMDInsertionSort.png>
+Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 60.
+(pdftex.def)             Requested size: 252.0pt x 97.50726pt.
+
+
+
+
+[2 <./Images/FSMDInsertionSort.png> <./Images/ASMDInsertionSort.png>]
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+
+[3]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -730,7 +734,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[2
+[4
 
 ] (conference_101719.aux)
  ***********
@@ -751,7 +755,7 @@ Package rerunfilecheck Warning: File `conference_101719.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `conference_101719.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  DAE47ED38ECDF6939A5467DB1E40A4B0;1896.
+(rerunfilecheck)             After:  41C2374B814B625BC0FD05BAAB0C63AC;2075.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                conference_101719
@@ -762,17 +766,17 @@ Package logreq Info: Writing requests to 'conference_101719.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18619 strings out of 473898
- 327159 string characters out of 5726478
- 1159104 words of memory out of 5000000
- 41287 multiletter control sequences out of 15000+600000
- 589164 words of font info for 92 fonts, out of 8000000 for 9000
+ 18660 strings out of 473898
+ 327778 string characters out of 5726478
+ 1166104 words of memory out of 5000000
+ 41321 multiletter control sequences out of 15000+600000
+ 588572 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,81p,1150b,1224s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (2 pages, 228561 bytes).
+ 75i,8n,81p,1942b,1224s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (4 pages, 253012 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
