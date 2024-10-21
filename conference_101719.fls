@@ -47,8 +47,6 @@ INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
-INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\cite\cite.sty
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
@@ -207,8 +205,14 @@ INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT conference_101719.out
+INPUT .\conference_101719.out
+INPUT .\conference_101719.out
+INPUT conference_101719.out
+INPUT conference_101719.out
 OUTPUT conference_101719.pdf
+INPUT .\conference_101719.out
+INPUT .\conference_101719.out
+OUTPUT conference_101719.out
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 OUTPUT conference_101719.bcf
 INPUT conference_101719.bbl
@@ -217,6 +221,7 @@ INPUT .\conference_101719.bbl
 INPUT .\conference_101719.bbl
 INPUT conference_101719.bbl
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
+INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
@@ -269,7 +274,10 @@ INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8
 INPUT conference_101719.aux
 INPUT .\conference_101719.out
 INPUT .\conference_101719.out
+INPUT conference_101719.run.xml
 OUTPUT conference_101719.run.xml
+INPUT C:\Users\Alexa\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\Alexa\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Alexa\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
