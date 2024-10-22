@@ -118,6 +118,7 @@ Custom IP blocks offer a good balance of flexibility and performance, as the har
 OR delete it
 
 \subsection{Other comparing methods}
+<<<<<<< HEAD
 EFFICIENCY:\\
 The following paragraph will analyze the efficiency of the approaches from various perspectives including execution speed, power consumption, and resource utilization.\\
 FSMD designs offer the highest level of efficiency in terms of execution speed and power consumption for fixed, predefined algorithms such as Insertion Sort. In FSMD, the algorithm is hardwired into a finite state machine with a dedicated data path, allowing for highly optimized data flow and minimal control overhead. As a result, FSMD can execute the Insertion Sort algorithm in a very short time, often approaching the theoretical minimum number of cycles for the given hardware.In terms of power efficiency, FSMD is typically superior due to its simple and optimized control logic, which minimizes switching activity and dynamic power consumption.\\
@@ -143,6 +144,51 @@ While the C implementation offers the lowest production costs, it sacrifices per
 A custom IP block is developed using High-Level Synthesis (HLS), where a high-level language like C or C++ is used to define the algorithm, and the design is synthesized into hardware. This approach provides the flexibility of software design with the performance benefits of hardware.The NRE costs for custom IP blocks using HLS are lower than those for FSMD because HLS allows for the automatic generation of hardware from high-level descriptions. This reduces the manual effort required in hardware design, cutting down verification time and labor costs. However, HLS tools themselves can be expensive, contributing to initial design costs. The per-unit production cost for custom IP blocks is similar to FSMD since the synthesized hardware still needs to be fabricated on silicon. However, the flexibility in design allows for optimization, potentially reducing chip area and power consumption, which can lower per-unit costs. The custom IP block approach strikes a balance between development effort and hardware efficiency. While the NRE costs are higher than for a pure software solution, they are lower than FSMD and ASIP, especially for projects where hardware synthesis from high-level designs is feasible.
 %conclusion
 The production costs of FSMD, ASIP, custom IP blocks using HLS, and C implementations of the Insertion Sort algorithm differ significantly. FSMD incurs the highest costs due to the custom hardware design and fabrication, making it suitable for specialized, high-performance applications. ASIP offers more flexibility with moderate production costs, while custom IP blocks using HLS provide an efficient trade-off between flexibility and hardware performance. Finally, the C implementation is the most cost-effective for general-purpose hardware, with minimal development and production costs but lower performance. 
+=======
+- efficiency
+- concurrency
+
+
+
+\subsection{Development Cost}
+This section aims to quantify our time amount of time that we spend on each implementation and thereby give an estimation how the cost of the different implementations can very. We worked on all implementations together as three at the same time. To reduce the complexity, the time we spend on each implementation is only given as it would be for one person. If we for example spend one day working on an implementation, this would be noted as 8h even though three persons worked on it for 8h which would result in the actual time of 24h which we spend on that implementation. This is done since we want to focus on the relative development cost between the solutions instead of the actual development cost.\\
+For the FSMD development, we spend around 25h. This includes the time for the diagram, code refactoring and debugging until the implementation worked. Even though we can not quantify it, we spend a significant amount of time on the initial design. We created both the FSMD and the ASMD diagrams first and this likely took around 6-8h. The second day was mainly spend on implementation and it ended in first tests and debugging. The rest of the hours were spend on refactoring, smaler improvements and get every edge case working without any issues. This implementation had a steady progress throughout the whole time.\\
+For the ASIP development, we spend around 18h. Since we used the ASMD diagram heavily for this, we did not have to develop any new logic. This contributed to the ASIP implementation taking less time than the FSMD implementation. It was unexpected to us. We thought the ASIP implementation would take around 10\%-30\% more time instead of this being the other way around. During the ASIP implementation, we spend around the first 10h-12h on creating the logic and chaging the existing processor. The last 6h-8h were used for debugging and refactoring. It also helped that we already debugged the FSMD first. We were more trained on the debugging process and we had little to debug. \\
+For the C-Code implementation it tooks us about 7,5h to do the full implementation and getting the code to run on the Zybo board. Most of the time for this implementation was spend on setting up Vitis and debugging issues with pointers. Since we took an implementation from a reputable source, we spend little to no time on the algorithm itself. None of us was programmed a lot in C and therefore we made some mistakes in the pointer handeling.\\
+For the C-Code implementation with the IP block for the insertion sorting, it took us around 21,5h to get a working version. We spend around 4-6h of the actual coding and most of the time with debugging. This was completely due to a lack of understanding of the software and the connection between the both the software and hardware component. We underestimated both the complexity of this task as well as the time that we are going to spend on this implementation. The progress with this implementation was far from linear. 6h before finishing the implementation we still were unsure about the logic and the algorithms for receiving, sending and transfering between the different components. This uncertainty should not be underestimated. The lack of knowledge caused considerable delay in this implementation. \\
+Conclusion: Henrik has to eat now before batminton so feel free to write a conclusion for this :D
+
+to be deleted: 
+mabey keep this until the section is written
+Time calculations:
+FSMD:
+- Mo 09:00-18:00
+- Di 09:00-17:30
+- Mi 09:00-12:00
+- Do 11:30-12:00
+- So 11:00-15:00
+25h
+
+ASIP:
+- Mi 13:00-16:00
+- Do 09:00-18:00 -30min
+- Fr 09:00-14:30
+- So 14:00-15:00
+
+
+C-Code
+- Mo 09:00-16:30
+7,5h
+
+HLS with IP Block
+- Di 09:00-16:00
+- Mi 09:00-17:00
+- Do 09:00-15:30
+21,5h
+
+
+
+>>>>>>> 26bec31ef16747b66cc00dc456ef80d020d5bfeb
 \section*{Acknowledgment}
 
 We confirm that there was no significant difference in the contribution to the work.
