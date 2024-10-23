@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  22 OCT 2024 17:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  23 OCT 2024 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,115 +208,6 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen174
 ) (c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
- (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count282
-)
-\@linkdim=\dimen175
-\Hy@linkcounter=\count283
-\Hy@pagecounter=\count284
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count285
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count286
- (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 4748.
-\XeTeXLinkMargin=\dimen176
- (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-))
-\Fld@menulength=\count287
-\Field@Width=\dimen177
-\Fld@charsize=\dimen178
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
- (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count288
-\c@Item=\count289
-\c@Hfootnote=\count290
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
- (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-)
-\Fld@listcount=\count291
-\c@bookmark@seq@number=\count292
- (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
-)
-\Hy@SectionHShift=\skip56
 ) (c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -335,72 +226,91 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
- (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count293
-) (c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
+\etb@tempcnta=\count282
+) (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count294
+\lrq@indent=\count283
  (c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count295
-\c@listtotal=\count296
-\c@listcount=\count297
-\c@liststart=\count298
-\c@liststop=\count299
-\c@citecount=\count300
-\c@citetotal=\count301
-\c@multicitecount=\count302
-\c@multicitetotal=\count303
-\c@instcount=\count304
-\c@maxnames=\count305
-\c@minnames=\count306
-\c@maxitems=\count307
-\c@minitems=\count308
-\c@citecounter=\count309
-\c@maxcitecounter=\count310
-\c@savedcitecounter=\count311
-\c@uniquelist=\count312
-\c@uniquename=\count313
-\c@refsection=\count314
-\c@refsegment=\count315
-\c@maxextratitle=\count316
-\c@maxextratitleyear=\count317
-\c@maxextraname=\count318
-\c@maxextradate=\count319
-\c@maxextraalpha=\count320
-\c@abbrvpenalty=\count321
-\c@highnamepenalty=\count322
-\c@lownamepenalty=\count323
-\c@maxparens=\count324
-\c@parenlevel=\count325
-\blx@tempcnta=\count326
-\blx@tempcntb=\count327
-\blx@tempcntc=\count328
-\c@blx@maxsection=\count329
-\blx@maxsegment@0=\count330
-\blx@notetype=\count331
-\blx@parenlevel@text=\count332
-\blx@parenlevel@foot=\count333
-\blx@sectionciteorder@0=\count334
-\blx@sectionciteorderinternal@0=\count335
-\blx@entrysetcounter=\count336
-\blx@biblioinstance=\count337
-\labelnumberwidth=\skip57
-\labelalphawidth=\skip58
-\biblabelsep=\skip59
-\bibitemsep=\skip60
-\bibnamesep=\skip61
-\bibinitsep=\skip62
-\bibparsep=\skip63
-\bibhang=\skip64
+)) (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count284
+\c@listtotal=\count285
+\c@listcount=\count286
+\c@liststart=\count287
+\c@liststop=\count288
+\c@citecount=\count289
+\c@citetotal=\count290
+\c@multicitecount=\count291
+\c@multicitetotal=\count292
+\c@instcount=\count293
+\c@maxnames=\count294
+\c@minnames=\count295
+\c@maxitems=\count296
+\c@minitems=\count297
+\c@citecounter=\count298
+\c@maxcitecounter=\count299
+\c@savedcitecounter=\count300
+\c@uniquelist=\count301
+\c@uniquename=\count302
+\c@refsection=\count303
+\c@refsegment=\count304
+\c@maxextratitle=\count305
+\c@maxextratitleyear=\count306
+\c@maxextraname=\count307
+\c@maxextradate=\count308
+\c@maxextraalpha=\count309
+\c@abbrvpenalty=\count310
+\c@highnamepenalty=\count311
+\c@lownamepenalty=\count312
+\c@maxparens=\count313
+\c@parenlevel=\count314
+\blx@tempcnta=\count315
+\blx@tempcntb=\count316
+\blx@tempcntc=\count317
+\c@blx@maxsection=\count318
+\blx@maxsegment@0=\count319
+\blx@notetype=\count320
+\blx@parenlevel@text=\count321
+\blx@parenlevel@foot=\count322
+\blx@sectionciteorder@0=\count323
+\blx@sectionciteorderinternal@0=\count324
+\blx@entrysetcounter=\count325
+\blx@biblioinstance=\count326
+\labelnumberwidth=\skip56
+\labelalphawidth=\skip57
+\biblabelsep=\skip58
+\bibitemsep=\skip59
+\bibnamesep=\skip60
+\bibinitsep=\skip61
+\bibparsep=\skip62
+\bibhang=\skip63
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count338
-\c@maxcomprange=\count339
-\c@mincompwidth=\count340
+\c@mincomprange=\count327
+\c@maxcomprange=\count328
+\c@mincompwidth=\count329
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -410,88 +320,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count341
-\c@savedafterword=\count342
-\c@annotator=\count343
-\c@savedannotator=\count344
-\c@author=\count345
-\c@savedauthor=\count346
-\c@bookauthor=\count347
-\c@savedbookauthor=\count348
-\c@commentator=\count349
-\c@savedcommentator=\count350
-\c@editor=\count351
-\c@savededitor=\count352
-\c@editora=\count353
-\c@savededitora=\count354
-\c@editorb=\count355
-\c@savededitorb=\count356
-\c@editorc=\count357
-\c@savededitorc=\count358
-\c@foreword=\count359
-\c@savedforeword=\count360
-\c@holder=\count361
-\c@savedholder=\count362
-\c@introduction=\count363
-\c@savedintroduction=\count364
-\c@namea=\count365
-\c@savednamea=\count366
-\c@nameb=\count367
-\c@savednameb=\count368
-\c@namec=\count369
-\c@savednamec=\count370
-\c@translator=\count371
-\c@savedtranslator=\count372
-\c@shortauthor=\count373
-\c@savedshortauthor=\count374
-\c@shorteditor=\count375
-\c@savedshorteditor=\count376
-\c@labelname=\count377
-\c@savedlabelname=\count378
-\c@institution=\count379
-\c@savedinstitution=\count380
-\c@lista=\count381
-\c@savedlista=\count382
-\c@listb=\count383
-\c@savedlistb=\count384
-\c@listc=\count385
-\c@savedlistc=\count386
-\c@listd=\count387
-\c@savedlistd=\count388
-\c@liste=\count389
-\c@savedliste=\count390
-\c@listf=\count391
-\c@savedlistf=\count392
-\c@location=\count393
-\c@savedlocation=\count394
-\c@organization=\count395
-\c@savedorganization=\count396
-\c@origlocation=\count397
-\c@savedoriglocation=\count398
-\c@origpublisher=\count399
-\c@savedorigpublisher=\count400
-\c@publisher=\count401
-\c@savedpublisher=\count402
-\c@language=\count403
-\c@savedlanguage=\count404
-\c@origlanguage=\count405
-\c@savedoriglanguage=\count406
-\c@pageref=\count407
-\c@savedpageref=\count408
-\shorthandwidth=\skip65
-\shortjournalwidth=\skip66
-\shortserieswidth=\skip67
-\shorttitlewidth=\skip68
-\shortauthorwidth=\skip69
-\shorteditorwidth=\skip70
-\locallabelnumberwidth=\skip71
-\locallabelalphawidth=\skip72
-\localshorthandwidth=\skip73
-\localshortjournalwidth=\skip74
-\localshortserieswidth=\skip75
-\localshorttitlewidth=\skip76
-\localshortauthorwidth=\skip77
-\localshorteditorwidth=\skip78
+\c@afterword=\count330
+\c@savedafterword=\count331
+\c@annotator=\count332
+\c@savedannotator=\count333
+\c@author=\count334
+\c@savedauthor=\count335
+\c@bookauthor=\count336
+\c@savedbookauthor=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@editor=\count340
+\c@savededitor=\count341
+\c@editora=\count342
+\c@savededitora=\count343
+\c@editorb=\count344
+\c@savededitorb=\count345
+\c@editorc=\count346
+\c@savededitorc=\count347
+\c@foreword=\count348
+\c@savedforeword=\count349
+\c@holder=\count350
+\c@savedholder=\count351
+\c@introduction=\count352
+\c@savedintroduction=\count353
+\c@namea=\count354
+\c@savednamea=\count355
+\c@nameb=\count356
+\c@savednameb=\count357
+\c@namec=\count358
+\c@savednamec=\count359
+\c@translator=\count360
+\c@savedtranslator=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@shorteditor=\count364
+\c@savedshorteditor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@origlanguage=\count394
+\c@savedoriglanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
+\shorthandwidth=\skip64
+\shortjournalwidth=\skip65
+\shortserieswidth=\skip66
+\shorttitlewidth=\skip67
+\shortauthorwidth=\skip68
+\shorteditorwidth=\skip69
+\locallabelnumberwidth=\skip70
+\locallabelalphawidth=\skip71
+\localshorthandwidth=\skip72
+\localshortjournalwidth=\skip73
+\localshortserieswidth=\skip74
+\localshorttitlewidth=\skip75
+\localshortauthorwidth=\skip76
+\localshorteditorwidth=\skip77
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -501,19 +411,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count409
-\c@textcitetotal=\count410
-\c@textcitemaxnames=\count411
-\c@biburlbigbreakpenalty=\count412
-\c@biburlbreakpenalty=\count413
-\c@biburlnumpenalty=\count414
-\c@biburlucpenalty=\count415
-\c@biburllcpenalty=\count416
+\c@textcitecount=\count398
+\c@textcitetotal=\count399
+\c@textcitemaxnames=\count400
+\c@biburlbigbreakpenalty=\count401
+\c@biburlbreakpenalty=\count402
+\c@biburlnumpenalty=\count403
+\c@biburlucpenalty=\count404
+\c@biburllcpenalty=\count405
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count417
+\c@smartand=\count406
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -531,8 +441,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count418
-\c@bbx:relatedtotal=\count419
+\c@bbx:relatedcount=\count407
+\c@bbx:relatedtotal=\count408
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -542,10 +452,10 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count420
-\c@cbx@tempcntb=\count421
-\c@cbx@tempcntc=\count422
-\c@cbx@tempcntd=\count423
+\c@cbx@tempcnta=\count409
+\c@cbx@tempcntb=\count410
+\c@cbx@tempcntc=\count411
+\c@cbx@tempcntd=\count412
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -573,7 +483,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2023-02-07 L3 programming layer (loader) 
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count424
+\l__color_backend_stack_int=\count413
 \l__pdf_internal_box=\box55
 ))
 Package biblatex Info: ... and expl3
@@ -586,9 +496,9 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 )) (c:/texlive/2022/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count425
-\c@@ppsavesec=\count426
-\c@@ppsaveapp=\count427
+\c@@pps=\count414
+\c@@ppsavesec=\count415
+\c@@ppsaveapp=\count416
 
 
 c:/texlive/2022/texmf-dist/tex/latex/appendix/appendix.sty:241: LaTeX Error: Command \appendices already defined.
@@ -605,8 +515,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 )
-\@quotelevel=\count428
-\@quotereset=\count429
+\@quotelevel=\count417
+\@quotereset=\count418
  (./conference_101719.aux)
 \openout1 = `conference_101719.aux'.
 
@@ -624,30 +534,28 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count430
-\scratchdimen=\dimen179
+\scratchcounter=\count419
+\scratchdimen=\dimen175
 \scratchbox=\box56
-\nofMPsegments=\count431
-\nofMParguments=\count432
+\nofMPsegments=\count420
+\nofMParguments=\count421
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count433
-\MPscratchDim=\dimen180
-\MPnumerator=\count434
-\makeMPintoPDFobject=\count435
+\MPscratchCnt=\count422
+\MPscratchDim=\dimen176
+\MPnumerator=\count423
+\makeMPintoPDFobject=\count424
 \everyMPtoPDFconversion=\toks24
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (c:/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
+ (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
@@ -655,10 +563,6 @@ Package grfext Info: Graphics extension search list:
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
-\@outlinefile=\write4
-\openout4 = `conference_101719.out'.
-
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -684,124 +588,159 @@ LaTeX Warning: No \author given.
 
 LaTeX Warning: No \author given.
 
-
-LaTeX Warning: Citation 'g4g' on page 1 undefined on input line 30.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/FSMDInsertionSort.png, id=4, 1832.8475pt x 1072.005pt>
-File: Images/FSMDInsertionSort.png Graphic file (type png)
-<use Images/FSMDInsertionSort.png>
-Package pdftex.def Info: Images/FSMDInsertionSort.png  used on input line 46.
-(pdftex.def)             Requested size: 252.0pt x 147.38069pt.
-<Images/ASMDInsertionSort.png, id=6, 2277.50874pt x 881.2925pt>
-File: Images/ASMDInsertionSort.png Graphic file (type png)
-<use Images/ASMDInsertionSort.png>
-Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 51.
-(pdftex.def)             Requested size: 252.0pt x 97.50726pt.
-
-
-LaTeX Warning: Reference `fig:asip' on page 1 undefined on input line 57.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 59.
-(c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 41.
+ (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
-
- []
-
-
-Underfull \vbox (badness 2213) has occurred while \output is active []
-
+<Images/FSMDInsertionSort.png, id=1, 1832.8475pt x 1072.005pt>
+File: Images/FSMDInsertionSort.png Graphic file (type png)
+<use Images/FSMDInsertionSort.png>
+Package pdftex.def Info: Images/FSMDInsertionSort.png  used on input line 49.
+(pdftex.def)             Requested size: 252.0pt x 147.38069pt.
+<Images/ASMDInsertionSort.png, id=3, 2277.50874pt x 881.2925pt>
+File: Images/ASMDInsertionSort.png Graphic file (type png)
+<use Images/ASMDInsertionSort.png>
+Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 55.
+(pdftex.def)             Requested size: 252.0pt x 97.50726pt.
  [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2 <./Images/FSMDInsertionSort.png> <./Images/ASMDInsertionSort.png>]
-<Images/ASIP.png, id=34, 1395.2125pt x 683.55376pt>
+]
+
+LaTeX Warning: Reference `fig:asip' on page 2 undefined on input line 61.
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 61--69
+\OT1/ptm/m/n/10 ad-di-tional com-po-nents and con-trol sig-nals. The changes
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 61--69
+\OT1/ptm/m/n/10 In the end we cre-ated six ad-di-tional in-struc-tions, four
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
+
+ []
+
+[2 <./Images/FSMDInsertionSort.png> <./Images/ASMDInsertionSort.png>]
+<Images/ASIP.png, id=22, 1395.2125pt x 683.55376pt>
 File: Images/ASIP.png Graphic file (type png)
 <use Images/ASIP.png>
-Package pdftex.def Info: Images/ASIP.png  used on input line 67.
+Package pdftex.def Info: Images/ASIP.png  used on input line 72.
 (pdftex.def)             Requested size: 252.0pt x 123.462pt.
 
 
-LaTeX Warning: Citation 'g4g' on page 3 undefined on input line 73.
+LaTeX Warning: Reference `sec:debugging' on page 3 undefined on input line 84.
+
+[3 <./Images/ASIP.png>]
+
+LaTeX Warning: Reference `section:fsmd' on page 4 undefined on input line 90.
 
 
-LaTeX Warning: Reference `sec:debugging' on page 3 undefined on input line 79.
+LaTeX Warning: Reference `sec:devcost' on page 4 undefined on input line 92.
 
 
-LaTeX Warning: Reference `section:fsmd' on page 3 undefined on input line 84.
+LaTeX Warning: Reference `sec:debugging' on page 4 undefined on input line 94.
 
 
-LaTeX Warning: Reference `sec:debugging' on page 3 undefined on input line 92.
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 84--96
-\OT1/ptm/m/n/10 the de-sign phase is rather straight for-ward. For the
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 84--96
-\OT1/ptm/m/n/10 im-ple-men-ta-tion, a fur-ther ab-strac-tion step is needed.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--96
+Underfull \hbox (badness 10000) in paragraph at lines 90--98
 
  []
 
-[3 <./Images/ASIP.png>] [4] [5]
-Underfull \hbox (badness 2426) in paragraph at lines 124--131
+[4] [5]
+Underfull \hbox (badness 2884) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 ASIP de-signs strike a bal-ance be-tween flex-i-bil-ity and
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 terms of ex-e-cu-tion speed and power con-sump-tion, they
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 op-ti-miza-tions spe-cific to sort-ing tasks. ASIPs can also
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 The C im-ple-men-ta-tion of In-ser-tion Sort, run-ning on a
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 con-text. For max-i-mum per-for-mance and min-i-mal power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
+
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 123--130
 []\OT1/ptm/m/n/10 In this next sec-tion we want to com-pare our four
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 124--131
-\OT1/ptm/m/n/10 im-ple-men-ta-tions un-der the as-pect of con-cur-rency. This
+Underfull \hbox (badness 2080) in paragraph at lines 123--130
+\OT1/ptm/m/n/10 De-spite this, the FSMD is fun-da-men-tally de-signed for
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 124--131
-\OT1/ptm/m/n/10 the-o-ret-i-cally run in par-al-lel, this ap-proach in-tro-duces
+Underfull \hbox (badness 3965) in paragraph at lines 123--130
+\OT1/ptm/m/n/10 trans-late high level code into an op-ti-mized hard-ware
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 124--131
-\OT1/ptm/m/n/10 ASIP de-signs of-fer more op-por-tu-ni-ties for con-cur-rency
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 124--131
-\OT1/ptm/m/n/10 spec-ify par-al-lel ex-e-cu-tion of mul-ti-ple op-er-a-tions at the
- []
-
-
-Underfull \hbox (badness 1783) in paragraph at lines 124--131
-\OT1/ptm/m/n/10 and hardware-level con-cur-rency sup-port. General-purpose
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--131
+Underfull \hbox (badness 10000) in paragraph at lines 123--130
 
  []
 
+[6]
+Underfull \hbox (badness 1546) in paragraph at lines 132--138
+\OT1/ptm/m/n/10 and trans-fer-ring be-tween the dif-fer-ent com-po-nents were
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
+
+ []
+
+[7]
 Underfull \vbox (badness 2213) has occurred while \output is active []
 
 
+Underfull \hbox (badness 6252) in paragraph at lines 150--155
+\OT1/ptm/m/n/10 dur-ing the pro-cess of de-sign-ing, im-ple-men-ta-tion and
+ []
 
-LaTeX Warning: Empty bibliography on input line 163.
 
+Underfull \hbox (badness 1960) in paragraph at lines 150--155
+\OT1/ptm/m/n/10 de-bug-ging. Each im-ple-men-ta-tion has ben-e-fits in cer-tain
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 150--155
+\OT1/ptm/m/n/10 by any other so-lu-tion. The im-ple-men-ta-tion is likely to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--155
+
+ []
+
+[8]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -813,21 +752,15 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8] (./conference_101719.aux)
+[9
+
+] (./conference_101719.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `conference_101719.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `conference_101719.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1688E82DDB26327184D5CAFC5571F8ED;3276.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                conference_101719
@@ -838,18 +771,18 @@ Package logreq Info: Writing requests to 'conference_101719.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18654 strings out of 476029
- 325421 string characters out of 5794165
- 1882340 words of memory out of 5000000
- 38860 multiletter control sequences out of 15000+600000
- 543897 words of font info for 90 fonts, out of 8000000 for 9000
+ 12453 strings out of 476029
+ 229781 string characters out of 5794165
+ 1873340 words of memory out of 5000000
+ 32760 multiletter control sequences out of 15000+600000
+ 544412 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,1905b,866s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,8n,68p,1940b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (8 pages, 318402 bytes).
+Output written on conference_101719.pdf (9 pages, 324685 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 32 named destinations out of 1000 (max. 500000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

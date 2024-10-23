@@ -11,11 +11,6 @@ Implementation
 Comparison
    1. Design and Implementation Complexity
          TODO: all in all this aspect feels like a lot of double work (compare with what was already explained within the implemenations part)
-         TODO: delete? "The design phase for the FSMD and ASMD took approxemately half a day of work."
-         compare with time specifications that we made further down
-         TODO: Do we want to include the times withing the design and implemenation aspect?
-         we do not diffferenciate between the time it took us to design vs debug the code
-         TODO: "This took a little longer than the FSMD" this in not true
    2. Debugging and Verification Complexity
          TODO: make it subsection
          TODO: connect to previous aspect: proposal: "After design and implementation we were debugging and vereifying our code. When deciding on an implementation one should consider the complexity of the debugging and verifying, since they vary greatly in our differnt approchaes" 
