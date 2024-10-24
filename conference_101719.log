@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  24 OCT 2024 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  24 OCT 2024 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -578,181 +578,185 @@ Package biblatex Info: ... file 'conference_101719.bbl' found.
  (./conference_101719.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
+ [1
 
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-LaTeX Warning: No \author given.
-
-
-LaTeX Warning: No \author given.
-
-
-LaTeX Warning: No \author given.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+]
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 41.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 51.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<Images/FSMDInsertionSort.png, id=1, 1832.8475pt x 1072.005pt>
+
+LaTeX Warning: Reference `fig:fsmd' on page 2 undefined on input line 51.
+
+
+LaTeX Warning: Reference `fig:asmd' on page 2 undefined on input line 53.
+
+<Images/FSMDInsertionSort.png, id=7, 1832.8475pt x 1072.005pt>
 File: Images/FSMDInsertionSort.png Graphic file (type png)
 <use Images/FSMDInsertionSort.png>
-Package pdftex.def Info: Images/FSMDInsertionSort.png  used on input line 49.
+Package pdftex.def Info: Images/FSMDInsertionSort.png  used on input line 59.
 (pdftex.def)             Requested size: 252.0pt x 147.38069pt.
-<Images/ASMDInsertionSort.png, id=3, 2277.50874pt x 881.2925pt>
+<Images/ASMDInsertionSort.png, id=9, 2277.50874pt x 881.2925pt>
 File: Images/ASMDInsertionSort.png Graphic file (type png)
 <use Images/ASMDInsertionSort.png>
-Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 55.
+Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 65.
 (pdftex.def)             Requested size: 252.0pt x 97.50726pt.
- [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
+[2
 
 ]
 
-LaTeX Warning: Reference `fig:asip' on page 2 undefined on input line 61.
+LaTeX Warning: Reference `fig:asip' on page 3 undefined on input line 71.
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 61--69
+Underfull \hbox (badness 1715) in paragraph at lines 71--79
 \OT1/ptm/m/n/10 In the end we cre-ated six ad-di-tional in-struc-tions, four
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--79
 
  []
 
-[2 <./Images/FSMDInsertionSort.png> <./Images/ASMDInsertionSort.png>]
-<Images/ASIP.png, id=22, 1395.2125pt x 683.55376pt>
+[3 <./Images/FSMDInsertionSort.png> <./Images/ASMDInsertionSort.png>]
+<Images/ASIP.png, id=25, 1395.2125pt x 683.55376pt>
 File: Images/ASIP.png Graphic file (type png)
 <use Images/ASIP.png>
-Package pdftex.def Info: Images/ASIP.png  used on input line 72.
+Package pdftex.def Info: Images/ASIP.png  used on input line 82.
 (pdftex.def)             Requested size: 252.0pt x 123.462pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `sec:debugging' on page 3 undefined on input line 84.
-
-[3 <./Images/ASIP.png>]
-
-LaTeX Warning: Reference `sec:fsmd' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Reference `sec:devcost' on page 4 undefined on input line 92.
 
 
 LaTeX Warning: Reference `sec:debugging' on page 4 undefined on input line 94.
 
+[4 <./Images/ASIP.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
+LaTeX Warning: Reference `sec:fsmd' on page 5 undefined on input line 100.
+
+
+LaTeX Warning: Reference `sec:devcost' on page 5 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sec:debugging' on page 5 undefined on input line 104.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--108
 
  []
 
-[4] [5]
-Underfull \hbox (badness 1490) in paragraph at lines 114--120
+[5] [6]
+Underfull \hbox (badness 1490) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 con-trol over-head. In our im-ple-men-ta-tion Vi-vado cre-ated
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 114--120
+Underfull \hbox (badness 2884) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 ASIP de-signs strike a bal-ance be-tween flex-i-bil-ity and
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 114--120
+Underfull \hbox (badness 1377) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 terms of ex-e-cu-tion speed and power con-sump-tion, they
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 114--120
+Underfull \hbox (badness 2080) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 op-ti-miza-tions spe-cific to sort-ing tasks. ASIPs can also
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 114--120
+Underfull \hbox (badness 3954) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 their ef-fi-ciency, mak-ing them suit-able for ap-pli-ca-tions
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 114--120
+Underfull \hbox (badness 2932) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 which means that the re-duced ef-fi-ciency com-pared to
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 114--120
+Underfull \hbox (badness 1902) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 The C im-ple-men-ta-tion of In-ser-tion sort, run-ning on a
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 114--120
+Underfull \hbox (badness 1430) in paragraph at lines 124--130
 \OT1/ptm/m/n/10 con-text. For max-i-mum per-for-mance and min-i-mal power
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
-
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 123--130
-[]\OT1/ptm/m/n/10 In this next sec-tion we want to com-pare our four
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 123--130
-\OT1/ptm/m/n/10 De-spite this, the FSMD is fun-da-men-tally de-signed for
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 123--130
-\OT1/ptm/m/n/10 trans-late high level code into an op-ti-mized hard-ware
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--130
-
- []
-
-[6]
-Underfull \hbox (badness 1546) in paragraph at lines 132--138
-\OT1/ptm/m/n/10 and trans-fer-ring be-tween the dif-fer-ent com-po-nents were
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--138
+Underfull \hbox (badness 10000) in paragraph at lines 124--130
 
  []
 
 [7]
-Underfull \hbox (badness 1533) in paragraph at lines 150--155
-[]\OT1/ptm/m/n/10 We im-ple-mented an In-ser-tion sort Al-go-rithm in four
+Underfull \hbox (badness 2426) in paragraph at lines 133--140
+[]\OT1/ptm/m/n/10 In this next sec-tion we want to com-pare our four
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 150--155
-\OT1/ptm/m/n/10 dur-ing the pro-cess of de-sign-ing, im-ple-men-ta-tion and
+Underfull \hbox (badness 2080) in paragraph at lines 133--140
+\OT1/ptm/m/n/10 De-spite this, the FSMD is fun-da-men-tally de-signed for
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 150--155
-\OT1/ptm/m/n/10 de-bug-ging. Each im-ple-men-ta-tion has ben-e-fits in cer-tain
+Underfull \hbox (badness 3965) in paragraph at lines 133--140
+\OT1/ptm/m/n/10 trans-late high level code into an op-ti-mized hard-ware
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 150--155
-\OT1/ptm/m/n/10 by any other so-lu-tion. The im-ple-men-ta-tion is likely to
+Underfull \hbox (badness 10000) in paragraph at lines 133--140
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
+Underfull \hbox (badness 1546) in paragraph at lines 142--148
+\OT1/ptm/m/n/10 and trans-fer-ring be-tween the dif-fer-ent com-po-nents were
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--148
 
  []
 
 [8]
+Underfull \hbox (badness 1533) in paragraph at lines 160--165
+[]\OT1/ptm/m/n/10 We im-ple-mented an In-ser-tion sort Al-go-rithm in four
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 160--165
+\OT1/ptm/m/n/10 dur-ing the pro-cess of de-sign-ing, im-ple-men-ta-tion and
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 160--165
+\OT1/ptm/m/n/10 de-bug-ging. Each im-ple-men-ta-tion has ben-e-fits in cer-tain
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 160--165
+\OT1/ptm/m/n/10 by any other so-lu-tion. The im-ple-men-ta-tion is likely to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--165
+
+ []
+
+[9]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -764,7 +768,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[9
+[10
 
 ] (./conference_101719.aux)
 
@@ -783,18 +787,18 @@ Package logreq Info: Writing requests to 'conference_101719.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12453 strings out of 476029
- 229777 string characters out of 5794165
+ 12485 strings out of 476029
+ 230210 string characters out of 5794165
  1871340 words of memory out of 5000000
- 32760 multiletter control sequences out of 15000+600000
- 544412 words of font info for 92 fonts, out of 8000000 for 9000
+ 32786 multiletter control sequences out of 15000+600000
+ 550822 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,8n,68p,1941b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,68p,1941b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (9 pages, 325450 bytes).
+Output written on conference_101719.pdf (10 pages, 326145 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber conference_101719"] 0 "conference_101719.bcf" "conference_101719.bbl" "conference_101719" 1729777908 -1
+["biber conference_101719"] 0 "conference_101719.bcf" "conference_101719.bbl" "conference_101719" 1729778982 -1
   "./references.bib" 1729690175 497 3749901569b9d30c2388feec7e69e647 ""
-  "conference_101719.bcf" 1729777907 106754 8f88261d911a6ab81a327ba487306a33 "pdflatex"
+  "conference_101719.bcf" 1729778981 106754 8f88261d911a6ab81a327ba487306a33 "pdflatex"
   (generated)
   "conference_101719.bbl"
   "conference_101719.blg"
   (rewritten before read)
-["pdflatex"] 1729777905 "c:/Users/adria/OneDrive/Dokumenter/hwsw/paper/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1729777908 2
+["pdflatex"] 1729778979 "c:/Users/adria/OneDrive/Dokumenter/hwsw/paper/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1729778982 2
   "IEEEtran.cls" 1729495015 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "Images/ASIP.png" 1729517645 146489 7619ca31085f44770ed8d0697b7e9372 ""
   "Images/ASMDInsertionSort.png" 1729495015 201471 09e3cf3167a0b3ef7c02be3175676239 ""
   "Images/FSMDInsertionSort.png" 1729676597 190901 4eaf8168fa847927ebc974904658ca20 ""
-  "c:/Users/adria/OneDrive/Dokumenter/hwsw/paper/conference_101719.tex" 1729777900 50526 23e5a2b365c0648a0827ac807df48331 ""
+  "c:/Users/adria/OneDrive/Dokumenter/hwsw/paper/conference_101719.tex" 1729778974 51015 00f993065f4a877f7731a643c095328b ""
   "c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1675945699 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675946043 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1675945204 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -26,12 +26,20 @@
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1675948653 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1675948653 4640 532ca3305aad10cc01d769f3f91f1029 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1675944365 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1675944365 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1675944365 916 f87d7c45f9c908e672703b83b72241a3 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1675944365 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1675944365 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1675944365 908 2921f8a10601f252058503cc6570e581 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1675944365 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1675944365 940 228d6584342e91276bf566bcf9716b83 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1675944957 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675944957 1528 abec98dbc43e172678c11b3b9031252a ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1675944957 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1675944957 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1675944957 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1675944957 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1675944957 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1675944365 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1675944365 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1675944365 32762 7fee39e011c23b3589931effd97b9702 ""
@@ -106,10 +114,10 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1675949292 4662804 131178ccc9b2f4741a821427ce79dce1 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1675949506 7879479 e4e181a490990a40adecc65a51d0da59 ""
   "c:/texlive/2022/texmf.cnf" 1675949264 713 e69b156964470283e0530f5060668171 ""
-  "conference_101719.aux" 1729777907 3375 a63d842b31f0286883498cfa323d54a4 "pdflatex"
+  "conference_101719.aux" 1729778981 3377 9c7cc4ae524c92f1bbd8bf98cbd9c19b "pdflatex"
   "conference_101719.bbl" 1729777848 1501 dd894b3d67e0285476461b5549f10d97 "biber conference_101719"
-  "conference_101719.run.xml" 1729777907 2493 2f0cd93c5783269539a37f1528fe3bcf "pdflatex"
-  "conference_101719.tex" 1729777900 50526 23e5a2b365c0648a0827ac807df48331 ""
+  "conference_101719.run.xml" 1729778981 2493 2f0cd93c5783269539a37f1528fe3bcf "pdflatex"
+  "conference_101719.tex" 1729778974 51015 00f993065f4a877f7731a643c095328b ""
   (generated)
   "conference_101719.aux"
   "conference_101719.bcf"
