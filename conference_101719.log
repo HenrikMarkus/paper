@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  23 OCT 2024 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.9)  24 OCT 2024 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -618,11 +618,6 @@ Package pdftex.def Info: Images/ASMDInsertionSort.png  used on input line 55.
 LaTeX Warning: Reference `fig:asip' on page 2 undefined on input line 61.
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 61--69
-\OT1/ptm/m/n/10 ad-di-tional com-po-nents and con-trol sig-nals. The changes
- []
-
-
 Underfull \hbox (badness 1715) in paragraph at lines 61--69
 \OT1/ptm/m/n/10 In the end we cre-ated six ad-di-tional in-struc-tions, four
  []
@@ -644,7 +639,7 @@ LaTeX Warning: Reference `sec:debugging' on page 3 undefined on input line 84.
 
 [3 <./Images/ASIP.png>]
 
-LaTeX Warning: Reference `section:fsmd' on page 4 undefined on input line 90.
+LaTeX Warning: Reference `sec:fsmd' on page 4 undefined on input line 90.
 
 
 LaTeX Warning: Reference `sec:devcost' on page 4 undefined on input line 92.
@@ -658,6 +653,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--98
  []
 
 [4] [5]
+Underfull \hbox (badness 1490) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 con-trol over-head. In our im-ple-men-ta-tion Vi-vado cre-ated
+ []
+
+
 Underfull \hbox (badness 2884) in paragraph at lines 114--120
 \OT1/ptm/m/n/10 ASIP de-signs strike a bal-ance be-tween flex-i-bil-ity and
  []
@@ -673,8 +673,18 @@ Underfull \hbox (badness 2080) in paragraph at lines 114--120
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 114--120
-\OT1/ptm/m/n/10 The C im-ple-men-ta-tion of In-ser-tion Sort, run-ning on a
+Underfull \hbox (badness 3954) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 their ef-fi-ciency, mak-ing them suit-able for ap-pli-ca-tions
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 which means that the re-duced ef-fi-ciency com-pared to
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 114--120
+\OT1/ptm/m/n/10 The C im-ple-men-ta-tion of In-ser-tion sort, run-ning on a
  []
 
 
@@ -718,7 +728,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--138
  []
 
 [7]
-Underfull \vbox (badness 2213) has occurred while \output is active []
+Underfull \hbox (badness 1533) in paragraph at lines 150--155
+[]\OT1/ptm/m/n/10 We im-ple-mented an In-ser-tion sort Al-go-rithm in four
+ []
 
 
 Underfull \hbox (badness 6252) in paragraph at lines 150--155
@@ -772,14 +784,14 @@ Package logreq Info: Writing requests to 'conference_101719.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  12453 strings out of 476029
- 229781 string characters out of 5794165
- 1873340 words of memory out of 5000000
+ 229777 string characters out of 5794165
+ 1871340 words of memory out of 5000000
  32760 multiletter control sequences out of 15000+600000
  544412 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,8n,68p,1940b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,8n,68p,1941b,1205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (9 pages, 324685 bytes).
+Output written on conference_101719.pdf (9 pages, 325450 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
